@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body,span,ul,p,h1,h2,h3,h4,h5,h6,form,input,ol,dl,dd{margin:0;padding:0;}
+body{font-size:12px;font-family:"黑体"; background:#fff;}
+a{color:#666;text-decoration:none;}
+a:hover{ color:#FFFFFF;}
+input,select{ font-size:12px;}
+table{ border-collapse:collapse;}
+a img{border:0;vertical-align:middle;}
+img{vertical-align:middle;}
+ul li{list-style:none;vertical-align:text-top;}
+.over{overflow:hidden;zoom:1;}
+.clear{ clear:both;}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+body{
+	
+}
+/******* header start*********/
+.header{
+	width: 1000px;
+	height: 32px;
+	text-align: center;
+	border: 1px solid salmon;
+	margin: 0 auto;	
+}
+.header .hleft span{
+	width:66px ;
+	line-height: 32px;
+	color: grey;
+
+	
+}
+.header span i{
+	
+	line-height: 66px;
+	
+	
+}
+.header span .fa{
+	width: 10px;
+	height: 5px;
+	line-height: 3px;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+/******* hcon start*******/
+.hcon{
+		width: 100%;
+		height: 82px;
+		background-color: #1C4987;
+}
+.hcon .cbox{
+	width: 1000px;
+	height: 82px;
+	margin: 0 auto;
+}
+.hcon .cbox h1{
+	display: inline-block;
+	width: 163px;
+	height: 49px;
+	margin-top: 17px;
+	margin-right: 60px;
+}	
+.hcon .cbox h1 img{
+	display: inline-block;
+	width: 163px;
+	height: 49px;
+}	
+.cbox .lang{
+	display: inline-block;
+	margin-top: 48px;
+	
+}
+.hcon .cbox lang a{
+	font-size: 14px;
+	font-weight: 200;
+	font-family: "楷体";
+}
+.hcon .cbox lang a:active{
+	color: #FFFFFF;
+}
+.cu{
+	color: #FFFFFF;
+}
+.hcon .nav{
+	width: 600px;
+}
+.hcon .nav ul{
+	width: inherit;
+	margin-top:46px ;
+}
+.hcon .nav ul li{
+	width: 100px;
+	height: inherit;
+	
+	
+}
+.hcon .nav ul li a{
+	font-size:14px ;
+	font-weight:400;
+	color: #FFFFFF;
+}
+.hcon .nav ul li a:hover{
+	color: #47CCFF;
+}
+/******** banner start*********/
+.banner{
+	width: 1000px;
+	margin: 0 auto;
+}
