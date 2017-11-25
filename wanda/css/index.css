@@ -26,7 +26,7 @@ body{
 	width: 1000px;
 	height: 32px;
 	text-align: center;
-	border: 1px solid salmon;
+	
 	margin: 0 auto;	
 }
 .header .hleft span{
@@ -113,4 +113,8 @@ body{
 .banner{
 	width: 1000px;
 	margin: 0 auto;
+}
+.banner .bimg{
+	width: 1000px;
+	height: 292px;
 }
