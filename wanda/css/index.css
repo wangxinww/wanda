@@ -112,9 +112,72 @@ body{
 /******** banner start*********/
 .banner{
 	width: 1000px;
+	height: 292px;
 	margin: 0 auto;
+	overflow:hidden; zoom:1; 
+	position:relative; 
+	z-index:10;
+	margin-bottom: 40px;
 }
 .banner .bimg{
 	width: 1000px;
 	height: 292px;
+}
+.banner .bimg a img{
+	width: 1000px;
+	height: 292px;
+}
+.banner .bmark{
+	position:absolute; 
+	right:452px; 
+	bottom:17px; 
+	z-index:20;
+}
+.banner .bmark span{
+	display:inline-block;
+    margin-right:8px; 
+    width:14px; 
+    height:14px; 
+    text-align:center; 
+    line-height:18px;
+    background-color:#FFFFFF; 
+    border-radius:50%; 
+    overflow:hidden; 
+    cursor:pointer;/*鼠标小手*/
+}
+
+.bmark span.current{ 
+	background-color:#194C90;
+}
+/****** con star **********/
+.con{
+	width: 1000px;
+	height: 1071px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+/** 左侧 **/
+.con .cleft{
+	width: 410px;
+	height: 1070px;
+}
+.con .cleft h2{
+	width: inherit;
+	height: 29px;
+	
+	
+	border-bottom: 1px solid #d3d3d3;
+	padding-bottom: 10px;
+	position: relative;
+}
+.con .cleft h2 a{
+	font-size: 16px;
+	color: #1d1d1d;
+	font-weight: bold;
+}
+.con .cleft .more{
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	color: 333333;
 }
