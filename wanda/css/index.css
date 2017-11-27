@@ -260,3 +260,29 @@ body{
 .cleft .key{
 	margin-bottom: 30px;
 }
+/*** 视频中心 ****/
+.cleft .audio{
+	width: 410px;
+	height: 205px;
+}
+.cleft .audio .aleft{
+	width: 308px;
+	height: 205px;
+}
+.cleft .audio .aleft img{
+	width: 308px;
+	height: 205px;
+}
+.cleft .audio  .aright{
+	width: 96px;
+	height:216px ;
+}
+.cleft .audio  .aright img{
+	width: 96px;
+	height: 63px;
+	margin-bottom: 10px;
+}
+.cleft .audio  .aright img:last-of-type{
+	
+	margin-bottom:0;
+}
