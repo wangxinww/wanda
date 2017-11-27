@@ -164,10 +164,9 @@ body{
 .con .cleft h2{
 	width: inherit;
 	height: 29px;
-	
-	
 	border-bottom: 1px solid #d3d3d3;
 	padding-bottom: 10px;
+	
 	position: relative;
 }
 .con .cleft h2 a{
@@ -181,9 +180,21 @@ body{
 	right: 0;
 	color: 333333;
 }
-.cleft .key{
+.cleft .key1{
 	width: inherit;
-	height: 70px;
+	height:80px;
+	margin-bottom: 30px;
+	
+}
+.cleft .key2{
+	width: inherit;
+	height:129px;
+	margin-bottom: 30px;
+	
+}
+.cleft .key3{
+	width: inherit;
+	height:124px;
 	margin-bottom: 30px;
 	
 }
@@ -245,4 +256,7 @@ body{
 .cleft .news .nt p{
 	color:#666;
 	line-height: 20px;
+}
+.cleft .key{
+	margin-bottom: 30px;
 }
