@@ -184,7 +184,7 @@ body{
 .cleft .key{
 	width: inherit;
 	height: 70px;
-	
+	margin-bottom: 30px;
 	
 }
 .cleft .key ul{
@@ -195,16 +195,54 @@ body{
 }
 .cleft .key ul li{
 	width: inherit;
-	height: 21px;
+	height: 28px;
 	font-size: 14px;
-	line-height: 21px;
-	
+	line-height: 28px;
+	position: relative;
+}
+.cleft .key ul li i{
+	display: inline-block;
+	border: 2px solid #666666;
+	position: absolute;
+	top:14px;
+	left: 0;
+	border-radius:50%;
 }
 .cleft .key ul li a{
-	cursor: pointer;
+	margin-left: 6px;
+	color: #194C90;	
+	line-height: 30px;
 }
-.cleft .key ul li s{
+.cleft .key ul li time{
 	position: absolute;
 	right: 0;
+
 	list-style: none;
+}
+/***** 集团要闻 ******/
+.cleft .news{
+	width: 410px;
+	height: 107px;
+	margin-top: 10px;
+}
+.cleft .news .nimg{
+	width: 163px;
+	height:107px;
+	
+}
+.cleft .news .nimg img{
+	width: 163px;
+	height:107px;
+}
+.cleft .news .nt{
+	width: 237px;
+}
+.cleft .news .nt a{
+	font-size: 16px;
+	color:#194C90;
+	line-height: 26px;
+}
+.cleft .news .nt p{
+	color:#666;
+	line-height: 20px;
 }
