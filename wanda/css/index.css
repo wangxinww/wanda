@@ -314,6 +314,7 @@ body{
 	border-radius: 10px 10px 0 0;
 	cursor: pointer;
 }
+/* nav 点击后状态 */
 	
 .cright .rnav li:active{
 	width: 139px;
@@ -327,6 +328,7 @@ body{
 	color: #3767A7;
 	border-radius: 10px 10px 0 0;
 }
+/* nav 初始状态 */
 .cright .rnav ul .tole{
 	width: 139px;
 	height: 63px;s
@@ -339,3 +341,4 @@ body{
 	color: #3767A7;
 	border-radius: 10px 10px 0 0;
 }
+
