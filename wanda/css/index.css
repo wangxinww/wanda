@@ -280,9 +280,62 @@ body{
 .cleft .audio  .aright img{
 	width: 96px;
 	height: 63px;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
-.cleft .audio  .aright img:last-of-type{
+
+/********************* 右侧 *****************/
+.con .cright{
+	width: 560px;
+	height: 1071px;
 	
-	margin-bottom:0;
+}
+/***** 二级菜单 *****/
+.cright .rnav{
+	padding: 0;
+	margin: 0;
+	width: 560px;
+	height: 43px;
+}
+.cright .rnav ul{
+	
+	width: 560px;
+	height: 42px;
+}
+.cright .rnav ul li{
+	float: left;
+	width: 139px;
+	height: 53px;
+	line-height: 53px;
+	margin-right: 1px;
+	text-align: center;
+	background-color: #3767A7;
+    font-size: 16px;
+	color: #fff;
+	border-radius: 10px 10px 0 0;
+	cursor: pointer;
+}
+	
+.cright .rnav li:active{
+	width: 139px;
+	height: 63px;s
+	line-height: 63px;
+	box-shadow:0px 0px 8px #808080 ;
+	z-index: 999;
+	margin-top: -10px;
+	background-color:#FFFFFF ;
+    font-size: 16px;
+	color: #3767A7;
+	border-radius: 10px 10px 0 0;
+}
+.cright .rnav ul .tole{
+	width: 139px;
+	height: 63px;s
+	line-height: 63px;
+	box-shadow:0px 0px 8px #808080 ;
+	z-index: 999;
+	margin-top: -10px;
+	background-color:#FFFFFF ;
+    font-size: 16px;
+	color: #3767A7;
+	border-radius: 10px 10px 0 0;
 }
